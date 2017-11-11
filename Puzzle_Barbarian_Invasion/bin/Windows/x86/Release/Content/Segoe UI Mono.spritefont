@@ -1,0 +1,39 @@
+option = {
+		name = women_history_events.97.b
+		trigger = {
+			OR = {
+				has_consort = no
+				NOT = { has_dlc = "Rights of Man" }
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_dlc = "Rights of Man" }
+			}
+			define_ruler = {
+				name = "Nurbanu Sultan"
+				dynasty = "Osmanoglu"
+				fixed = yes
+				adm = 4
+				dip = 4
+				mil = 3
+				female = yes
+			}
+		}
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+			}
+			define_consort = {
+				name = "Nurbanu Sultan"
+				adm = 4
+				dip = 4
+				mil = 3
+				female = yes
+			}
+			hidden_effect = { 
+				add_queen_personality = secretive_personality
+				add_queen_personality = silver_tongue_personality
+			}
+		}
+	}
