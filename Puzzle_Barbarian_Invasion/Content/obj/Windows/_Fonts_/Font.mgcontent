@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/polo/Documents/Visual Studio 2017/Projects/Puzzle_Barbarian_Invasion/Puzzle_Barbarian_Invasion/Content/_Fonts_/Font.spritefont</SourceFile>
+  <SourceTime>2017-06-19T17:01:11.2785318+02:00</SourceTime>
+  <DestFile>C:/Users/polo/Documents/Visual Studio 2017/Projects/Puzzle_Barbarian_Invasion/Puzzle_Barbarian_Invasion/Content/bin/Windows/_Fonts_/Font.xnb</DestFile>
+  <DestTime>2017-06-19T17:01:14.4166566+02:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
